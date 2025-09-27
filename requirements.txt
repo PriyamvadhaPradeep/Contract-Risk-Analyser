@@ -3,4 +3,5 @@ pandas
 pdfplumber
 python-docx
 google-genai
+google.generativeai
 python-dotenv
