@@ -1,4 +1,5 @@
-Contract Risk Analyzer:
+**Contract Risk Analyzer:**
+
 The Contract Risk Analyzer is a Streamlit-based web application designed to assist legal and commercial teams in rapidly reviewing and analyzing contracts (MSAs, SOWs) for key terms, risks, and mitigation strategies.
 
 Utilizing the Gemini API, the application performs a multi-stage, structured analysis:
@@ -11,7 +12,8 @@ Categorizes identified risks with a RAG (Red/Amber/Green) rating based on a stan
 
 Generates a comprehensive dashboard including a Weighted Contract Risk Index (WCRI) score and top risks, all presented in a visually structured manner.
 
-✨ Features:
+**Features:**
+
 File Upload Support: Analyze contracts in PDF, DOCX, or plain TXT format.
 
 Structured Analysis: Findings are mapped to 8 standard risk buckets.
@@ -22,7 +24,8 @@ Interactive Dashboard: Displays a WCRI score, risk counts, and commercial snapsh
 
 Text Wrapping: The detailed risk tables are styled to ensure long text wraps properly within cells for easy readability.
 
-⚙️ Setup and Installation
+**Setup and Installation**:
+
 Prerequisites
 Python: Python 3.8+
 
@@ -71,7 +74,7 @@ GEMINI_API_KEY="YOUR_ACTUAL_API_KEY"
 
 Launch: Select the repository and main file (app.py) to launch the app.
 
-📂 Project Files:
+**Project Files:**
 
 app.py
 The main Streamlit application script containing all UI, logic, and Gemini API calls for contract analysis.
