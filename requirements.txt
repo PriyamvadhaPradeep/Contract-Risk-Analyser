@@ -1,5 +1,6 @@
-streamlit 
-google-generativeai 
-pdfplumber 
+streamlit
+pandas
+pdfplumber
 python-docx
+google-genai
 python-dotenv
